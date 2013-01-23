@@ -31,5 +31,5 @@ class MmsegDict(BaseDict):
         
         
 if __name__ == "__main__":
-    d = MmsegDict("pku_training.txt" , "gbk");
+    d = MmsegDict("../resource/training/msr_training.txt" , "gbk");
     d.run()

@@ -7,7 +7,7 @@ Created on Jan 18, 2013
 
 @author: kary
 '''
-class MmsegPaeser(BaseParser):
+class MmsegParser(BaseParser):
     '''
     This class is used to parse the file with dictionary
     '''
@@ -85,5 +85,5 @@ class MmsegPaeser(BaseParser):
         return candidatelist
     
 if __name__ == '__main__':
-    p = MmsegPaeser("test" , "gbk")
+    p = MmsegParser("../resource/testing/msr_test.txt" , "gbk")
     p.run()
